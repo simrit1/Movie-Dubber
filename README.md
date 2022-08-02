@@ -1,13 +1,11 @@
 # MovieDubber
 Right now, this is just a GUI to run a dynamic ffmpeg command to overlay an audio track on a video file. Intended for movies and dubs.
 
-Please excuse the mess, as this is my first attempt at this kind of program.
+Please excuse the mess, as I'm still new to programming.
 
 ## Things you should know
-- The editor isn't ready yet. I'm trying to figure out how to simply delay the movie output in the preview and it's not going well...
-- Progress bar isn't working yet. Just need to get movie duration then read ffmpeg output for timestamp.
 - Some videos (like some older movies) don't like their audio being messed with. So the output file would be out of sync. Try a different movie file.
-- It currently lacks error handling, so follow the instructions carefully.
+- 
 
 ## Screens
 ![MainScreen](https://github.com/f09f9095/MovieDubber/blob/master/etc/MainScreen.png?raw=true)
