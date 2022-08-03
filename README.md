@@ -24,7 +24,7 @@ Steps:
 >1. Select output folder where movie will be saved
 >2. Select input movie file (Should match movie duration (Length) in database for proper sync)
 >3. Select input audio track
->4. Adjust volume and ratio options if desired
+>4. Adjust volume and ratio options if desired - I recommend using ratio
 >5. Select movie to be synced from database (Must have Delay)
 >6. Press Encode
 
