@@ -7,10 +7,14 @@ Please excuse the mess, as I'm still new to programming, this is my first progra
 - Some videos (like some older movies) don't like their audio being messed with. So the output file would be out of sync. Try a different movie file.
 - Not all movies in the database currently have a Delay. They are not usable right now.
 
-## Screens
-![Main Screen](https://github.com/f09f9095/Movie-Dubber/blob/main/etc/Main%20Screen.png?raw=true)
+## Screenshots
+<details>
+  <summary>Screenshots</summary>
 
-![Database](https://github.com/f09f9095/Movie-Dubber/blob/main/etc/Database.png?raw=true)
+  ![Main Screen](https://github.com/f09f9095/Movie-Dubber/blob/main/etc/Main%20Screen.png?raw=true)
+  ![Database](https://github.com/f09f9095/Movie-Dubber/blob/main/etc/Database.png?raw=true)
+</details>
+
 
 ## Instructions
 Things you'll need:
