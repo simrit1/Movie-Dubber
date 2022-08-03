@@ -23,6 +23,7 @@ Things you'll need:
 - A movie file that **_matches the Length_** of the listed movie in the database in format: `mkv, mp4`
   - The only working movies are ones in the database with a Delay listed. The database will be updated when I can.
 - An audio track to lay over the movie in format: `mp3, m4a`
+- If you want to run the program from source, just have Python 3.8+ installed and run __init__.py
 
 Steps:
 >1. Select output folder where movie will be saved
