@@ -82,6 +82,7 @@ class Encode(QRunnable):
                     print('loser');
                     self.kill_Proc();
         except ravioli.MissingFFMPEG: ravioli.Ui_Error_FFMPEG_required();
+        except ValueError: pass;
 
     #################
     #|  FUNCTIONS  |#
