@@ -20,9 +20,9 @@ Right now, this is just a GUI to run an ffmpeg command to overlay an audio track
 Things you'll need:
 - ffmpeg [added to your path](https://www.youtube.com/watch?v=3z9rUl9r2oA) - [Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)
   - You may also take the ffmpeg.exe from ffmpeg-git-full zip and put it in the root folder of the Movie Dubber exe (or __init__.py if running from source).
-- A movie file that **_matches the Length_** of the listed movie in the database.
+- A movie file that **_matches the Length_** of the listed movie in the database in format: `mkv, mp4`
   - The only working movies are ones in the database with a Delay listed. The database will be updated when I can.
-- An audio track to lay over the movie
+- An audio track to lay over the movie in format: `mp3, m4a`
 
 Steps:
 >1. Select output folder where movie will be saved
@@ -34,9 +34,10 @@ Steps:
 
 Options:
 - Delay (ms): In this box you enter how long to delay the added audio track.
-  - This option is usually added from the database unless you know how syncronized the dubs yourself.
+  - This option is usually added from the database unless you know how to syncronize the dubs yourself.
 - Volume: This box allows you to change the movie file volume level.
   - Entered value should be an (+/-) integer. Value will adjust movie decible level.
+  - Example: Value of 5 will raise movie volume 5dB; value of -3 will lower movie volume 3dB.
 - Ratio: Ratio allows you to have the added audio track take precidence over the movie.
   - Valid entries: 1 to 9.99
   - Example: Setting Ratio to 2.5 will mean the movie audio will lower itself 2.5x while the added audio track is producing audio (talking).
