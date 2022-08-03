@@ -1,5 +1,5 @@
 # Movie Dubber
-Right now, this is just a GUI to run a dynamic ffmpeg command to overlay an audio track on a video file; intended for movies and dubs. Later, I'd like to fix the (disabled for now) video editor so you could sync movies and dubs without having to load from the database. 
+Right now, this is just a GUI to run an ffmpeg command to overlay an audio track on a video file; intended for movies and dubs. Later, I'd like to fix the (disabled for now) video editor so you could sync movies and dubs without having to load from the database. 
 
 Please excuse the mess, as I'm still new to programming, this is my first program.
 
